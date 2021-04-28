@@ -14,7 +14,7 @@ public class CustomCalculatorTest {
     public void add() {
         customCalculator = new CustomCalculator();
         int result = customCalculator.add(10,15);
-        /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result==25);
         System.out.println("result :: " + result);
     }
 
@@ -23,7 +23,7 @@ public class CustomCalculatorTest {
     public void subtract() {
         customCalculator = new CustomCalculator();
         int result = customCalculator.subtract(23,10);
-        /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result==13);
         System.out.println("result :: " + result);
     }
 
@@ -32,7 +32,7 @@ public class CustomCalculatorTest {
     public void multiply() {
         customCalculator = new CustomCalculator();
         int result = customCalculator.multiply(5,9);
-        /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result==45);
         System.out.println("result :: " + result);
     }
 
@@ -41,7 +41,7 @@ public class CustomCalculatorTest {
     public void divide() {
         customCalculator = new CustomCalculator();
         int result = customCalculator.divide(25,5);
-        /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result==5);
         System.out.println("result :: " + result);
     }
 }
